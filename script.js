@@ -280,5 +280,3 @@ document.getElementById('filterRatioDesc').onclick = function () {
 	document.querySelector(".card-wrapper").innerHTML = "";
 	generateCars(cars)
 }
-
-
