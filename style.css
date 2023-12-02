@@ -16,9 +16,10 @@ body {
 	padding: 0;
 	background-image: linear-gradient(180deg,
 			hsl(0deg 45% 42%) 0%,
-			hsl(292deg 50% 29%) 50%,
+			hsl(292deg 25% 29%) 50%,
 			hsl(224deg 56% 17%) 100%);
 }
+
 
 .logo {
 	display: flex;
@@ -30,6 +31,10 @@ body {
 	color: var(--cream);
 	padding: 30px 0;
 	margin-bottom: 30px;
+
+	@media screen and (max-width: 600px) {
+		font-size: 40px;
+	}
 }
 
 header {
@@ -49,6 +54,10 @@ header {
 	font-family: 'Allura', cursive;
 	font-size: 60px;
 	color: var(--cream);
+
+	@media screen and (max-width: 600px) {
+		font-size: 34px;
+	}
 }
 
 #search-car {
@@ -62,6 +71,13 @@ header {
 	background-color: transparent;
 	font-size: 30px;
 	margin-bottom: 30px;
+
+	@media screen and (max-width: 600px) {
+		width: 100%;
+		height: 36px;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
 }
 
 #search-car:focus {
@@ -73,6 +89,10 @@ header {
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 20px;
+
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
 }
 
 #filterDesc {
@@ -80,6 +100,10 @@ header {
 	flex-direction: column;
 	align-items: flex-end;
 	gap: 20px;
+
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
 }
 
 button {
@@ -90,6 +114,11 @@ button {
 	border: 1px solid var(--cream);
 	background-color: transparent;
 	border-radius: 10px;
+
+	@media screen and (max-width: 600px) {
+		font-size: 20px;
+		padding: 10px 15px;
+	}
 }
 
 .is-hidden {
@@ -103,6 +132,11 @@ button {
 	padding-top: 30px;
 	justify-content: center;
 	flex-wrap: wrap;
+
+	@media screen and (max-width: 600px) {
+		margin: 0;
+		gap: 30px;
+	}
 }
 
 .car-card {
@@ -113,6 +147,11 @@ button {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	@media screen and (max-width: 600px) {
+		width: 80%;
+		font-size: 10px;
+	}
 }
 
 .car-image {
@@ -120,6 +159,11 @@ button {
 	margin-left: 1px;
 	border-top: 2px solid var(--cream);
 	border-bottom: 2px solid var(--cream);
+
+	@media screen and (max-width: 600px) {
+		width: 100%;
+		margin: 0;
+	}
 }
 
 #to-top {
@@ -133,6 +177,10 @@ button {
 	border: none;
 	background-color: transparent;
 	color: var(--cream);
+
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
 }
 
 #img-to-top #line {
