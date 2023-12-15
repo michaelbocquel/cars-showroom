@@ -219,11 +219,3 @@ button {
 		display: none;
 	}
 }
-
-#img-to-top #line {
-	width: 100%;
-	height: 1px;
-	position: fixed;
-	bottom: 30px;
-	background-color: red;
-}
